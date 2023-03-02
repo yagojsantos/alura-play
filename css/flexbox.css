@@ -1,0 +1,33 @@
+/* cabecalho */
+
+.cabecalho__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.cabecalho__pesquisar__item{
+    display: none;
+}
+
+/* rodape */
+.rodape__container{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+@media (min-width:834px){
+    /* cabecalho */
+    
+    .cabecalho__pesquisar__item{
+        display: block;
+    }
+
+    /* rodape */
+    
+    .rodape__container{
+        justify-content: space-between;
+    }
+    
+}
